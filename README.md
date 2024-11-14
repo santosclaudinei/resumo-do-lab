@@ -87,3 +87,25 @@ Máquinas Virtuais (VMs) são instâncias de servidores virtuais que permitem ex
 Com este laboratório, vimos desde conceitos fundamentais da computação em nuvem até a criação prática de máquinas virtuais no Azure, entendendo como gerenciar recursos e otimizar o ambiente para atender às necessidades do seu negócio.
 
 ---
+
+### Exploração do Portal Azure: Criação de Bancos de Dados
+Para criar uma instância de banco de dados SQL, realizamos os seguintes passos:
+
+1. **Criação de um Servidor SQL**:
+   - Fornecer um **nome**, **localização** e definir o **tipo de autenticação**.
+   - Se optar por **autenticação Microsoft**, é necessário configurar o **usuário**.
+
+2. **Configuração do Banco de Dados**:
+   - Selecionar o **modelo de redundância do armazenamento**:
+     - **LRS (Locally Redundant Storage)**: Três cópias no mesmo datacenter.
+     - **ZRS (Zone-Redundant Storage)**: Cópias distribuídas entre zonas.
+     - **GRS (Geo-Redundant Storage)**: Replicação em uma região diferente para recuperação de desastres.
+
+3. Durante a configuração, o **custo estimado mensal** é exibido, permitindo ajustar os recursos para manter o controle financeiro.
+
+---
+
+## Conclusão
+Com este laboratório, exploramos desde a criação de máquinas virtuais até a configuração de bancos de dados no Azure, sempre considerando boas práticas de gerenciamento, disponibilidade e controle de custos.
+
+---
